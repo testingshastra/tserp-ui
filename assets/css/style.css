@@ -208,14 +208,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .gradient-bg, .modal-body .nws-button button, .teacher-pic-content .teacher-img-content:after, .course-details-category li:hover {
   background: #17d0cf;
-  background: -moz-linear-gradient(left, #17d0cf 0%, #17d0cf 51%, #17d0cf 100%);
+  background: -moz-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
-  background: -webkit-linear-gradient(left, #17d0cf 0%, #17d0cf 51%, #0071b0 100%);
-  background: -o-linear-gradient(left, #17d0cf 0%, #17d0cf 51%, #17d0cf 100%);
-  background: -ms-linear-gradient(left, #17d0cf 0%, #17d0cf 51%, #17d0cf 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#17d0cf), color-stop(51%, #17d0cf), to(#17d0cf));
-  background: -webkit-linear-gradient(left, #17d0cf 0%, #17d0cf 51%, #17d0cf 100%);
-  background: linear-gradient(to right, #17d0cf 0%, #17d0cf 51%, #17d0cf 100%);
+  background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #0071b0 100%);
+  background: -o-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+  background: -ms-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+  background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+  background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background-size: 200% auto;
   -webkit-transition: background 1s ease-out;
   -moz-transition: background 1s ease-out;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0px; }
 
 .header_3 {
-  padding: 0px 0px 70px;
+  padding: 30px 0px 70px;
   position: relative;
   z-index: 2;
   -webkit-transition: .3s all ease-in-out;
@@ -871,7 +871,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   padding: 30px;
   position: fixed;
-  background-color: #01a6fd; }
+  background-color: #151515; }
 
 .alt-menu-btn {
   max-width: 100%;
@@ -929,7 +929,7 @@ button.alt-menu-btn.float-left {
   min-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  background: #fff;
+  background: #151515;
   padding-bottom: 200px; }
 
 #menu-container .menu-list .alt-search input[type=search], #menu-container .menu-list .alt-search .register-form-area select[type=search], .register-form-area #menu-container .menu-list .alt-search select[type=search], #menu-container .menu-list .alt-search .register-form-area textarea[type=search], .register-form-area #menu-container .menu-list .alt-search textarea[type=search] {
@@ -958,7 +958,7 @@ button.alt-menu-btn.float-left {
   text-align: left;
   padding: 10px 15px;
   border: none;
-  background-color: #2d7fc7;
+  background-color: #000;
   position: relative;
   color: #fff; }
 
@@ -977,12 +977,12 @@ button.alt-menu-btn.float-left {
 
 #menu-container .accordion .card.active,
 #menu-container .accordion .card .submenu {
-  background-color: #2d7fc7; }
+  background-color: #000000; }
 
 #menu-container .accordion .card:hover .menu-link,
 #menu-container .accordion .card.active .menu-link {
   color: #fff;
-  background-color: #01a6fd;
+  background-color: #000000;
   border: none; }
 
 #menu-container .accordion .card .submenu {
@@ -1245,7 +1245,7 @@ button.alt-menu-btn.float-left {
   background-position: center center; }
 
 .slider-bg-1 {
-  background-image: url(../img/logo/education-banner2.jpg); }
+  background-image: url(../img/banner/s-1.jpg); }
 
 .slider-bg-2 {
   background-image: url(../img/banner/s-4.jpg); }
@@ -1566,7 +1566,7 @@ button.alt-menu-btn.float-left {
     background-color: #f7f7f7; }
 
 .popular-three {
-  background-color: #2d7fc7;
+  background-color: #f7f7f7;
   padding: 100px 0px 100px; }
   .popular-three .course-viewer li {
     background-color: #fff; }
@@ -4457,8 +4457,8 @@ ul.product-tab li.active:after {
 /*Contact  section*/
 /*----------------------------------------------------*/
 .footer-area-section {
-  padding: 30px 10px 30px 50px; }
-  background-color: red;
+  padding: 105px 0px 0px 0px; }
+
 .footer-about-text p {
   font-size: 17px;
   margin-bottom: 25px;

@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "assets"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../tserp-ui"
+		},
+		{
+			"path": "../Backend/backend"
+		},
+		{
+			"path": "../std-reg-app"
+		},
+		{
+			"path": "../Login-and-Register-Form-HTML-CSS--main"
+		},
+		{
+			"path": "../Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "testingshastra.com1"
+	}
+}
